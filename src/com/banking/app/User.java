@@ -22,6 +22,7 @@ public class User {
 		System.out.print("Full Name:");
 		String full_name = sc.next();
 		System.out.print("\nEmail:");
+		sc.nextLine();
 		String email = sc.next();
 		System.out.print("\nPassword:");
 		String password = sc.next();
